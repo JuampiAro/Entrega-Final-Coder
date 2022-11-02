@@ -1,0 +1,26 @@
+/* CAROUSEL */
+
+.carousel-inner {
+    max-height: 350px;
+}
+
+/* Header */
+
+.pHeader {
+    font-size: 14px;
+}
+
+/* logo */
+
+.logo {
+    max-width: 150px;
+}
+
+.divimg {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  !important;
+}
