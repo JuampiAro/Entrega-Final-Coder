@@ -44,3 +44,15 @@ body {
         color: rgb(204, 0, 255);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
 }
+
+
+/* Footer */
+
+footer {
+    background-color: #a2d9ff;
+    margin-top: -50px;
+}
+
+@media {
+    
+}
