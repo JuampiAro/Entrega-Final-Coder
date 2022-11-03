@@ -34,3 +34,13 @@
     height: 250px;
 }
 
+body {
+    background: linear-gradient(to bottom, #00d2ff,#3a7bd5);
+}
+
+.aProye {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(204, 0, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
