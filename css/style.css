@@ -1,3 +1,5 @@
+/* inicio */
+
 /* CAROUSEL */
 
 .carousel-inner {
@@ -24,3 +26,11 @@
 .parrafo {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  !important;
 }
+
+/* Proyecto */
+
+.imgProye {
+    width: 300px;
+    height: 250px;
+}
+
