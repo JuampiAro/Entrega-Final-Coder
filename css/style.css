@@ -9,6 +9,7 @@ main .carousel-inner {
 }
 main .parrafo {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 25px;
 }
 main .imgProye {
   width: 300px;
@@ -19,6 +20,13 @@ main .aProye {
   text-transform: uppercase;
   color: rgb(204, 0, 255);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}
+main .formacion, main .visitaCoder {
+  text-decoration: none !important;
+}
+main .visitaCoder {
+  color: deepskyblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*Variables*/ /*Body*/

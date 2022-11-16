@@ -8,6 +8,7 @@ main {
         
         .parrafo {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  !important;
+        font-size: 25px;
         }
 
         .imgProye {
@@ -21,4 +22,16 @@ main {
                 color: rgb(204, 0, 255);
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
         }
+
+        .formacion {
+                text-decoration: none !important;
+                }
+
+        .visitaCoder {
+                @extend .formacion;
+                color:deepskyblue;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+        }
+        
 }
