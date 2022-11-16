@@ -1,0 +1,11 @@
+/*logo central*/
+
+.divimg {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    @extend .divimg;
+    max-width: 150px;
+}
