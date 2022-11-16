@@ -1,5 +1,12 @@
 /*Main*/
 
+@mixin etiA {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: rgb(195, 240, 255);
+}
+
 main {
         .carousel-inner {
         max-height: 350px;
@@ -17,10 +24,9 @@ main {
         }
 
         .aProye {
-                text-decoration: none;
-                text-transform: uppercase;
-                color: rgb(204, 0, 255);
+                @include etiA;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
         }
 
         .formacion {
@@ -29,9 +35,9 @@ main {
 
         .visitaCoder {
                 @extend .formacion;
-                color:deepskyblue;
+                @include etiA;
                 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         
         }
-        
+
 }
